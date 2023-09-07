@@ -12,7 +12,7 @@ body{
 	font-size: 26px;
 }
 .main-block{
-	background: lightslategray;
+	background-image: url("https://fcontice.github.io/itis3135/images/background.jpg");
 	flex: auto;
 	display: flex;
 	align-items: center;
