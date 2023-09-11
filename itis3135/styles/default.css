@@ -9,6 +9,7 @@ body{
 	padding-top: 20px;
 	padding-bottom: 10px;
 	text-align: center;
+	color: #ffffff;
 }
 .main-block{
 	background: lightslategray;
@@ -74,11 +75,11 @@ body{
 	font-size: 20px;
 	font-weight: 900;
 	text-decoration: none;
-	color: #000000;
+	color: #ffffff;
 	padding: 0px 16px;
 }
 .page-link{
-	color: Black;
+	color: #ffffff;
 	text-decoration: none;
 	font-weight: 700;
 }
@@ -95,6 +96,15 @@ header{
 }
 .heading{
 	text-align: center;
+	color: #ffffff;
+}
+.center{
+	text-align: center;
+	color:#ffffff;
+}
+.heading-div{
+	max-width: 200px;
+	color:darkgray;
 }
 			
 			
