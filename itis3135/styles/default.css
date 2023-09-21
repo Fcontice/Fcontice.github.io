@@ -28,8 +28,7 @@ body{
 	border: 1px solid #000000;
 	border-radius: 20px;
 	box-shadow: 6px 6px 10px #000000;
-	padding: 20px px;
-	display: block;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 }
