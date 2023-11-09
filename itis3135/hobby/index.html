@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITIS3135 | Midterm</title>
+    <!-- main styles -->
+    <style>
+        html{
+           height: 100vh;
+           width: 100vw;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background-color: #f0f0f0;
+        }
+        header{
+            position: relative;
+            margin-top: 0;
+            background-color: #94c5f0;
+            padding:20px;
+        }
+        header button{
+            border: 2px solid black;
+            background-color: #f1a1a1;
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 600;
+            margin: 2px;
+        }
+        header button:hover{
+            background-color: black;
+            color: #f1a1a1;
+            border: 2px solid #f1a1a1;
+        }
+       main{
+            padding: 20px;
+        }
+        h1{
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 600;
+            margin: 0;
+            padding: 0;
+        }
+
+</style>
+<!-- footer styles -->
+<style>
+        .nav-bottom{
+	        margin: 0;
+	        padding: 0;
+	        display: flex;
+	        align-items:center;
+	        justify-content: center;
+        }
+        .page-list{
+        	margin: 10px;
+        	padding: 0;
+        	list-style-type:none;
+        	display: flex;
+            gap: 25px;
+        }
+        .page-link{
+        	color: black;
+        	text-decoration: none;
+        	font-weight: 750;
+        }
+        .page-link:hover{
+        	color: var(--main-bg-color);
+        }
+        .p-bottom{
+        	padding: 5px 20px 8px 20px;
+        }
+        .bottom-footer{
+        	padding: 1rem 0;
+        	margin:0;
+        	align-items: center;
+        	display: flex;
+        	justify-content: center;
+        }
+        footer{
+            background-color: green;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        hr{
+            margin: 0;
+            padding: 0;
+            border: black 1px solid;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <button onclick="openSection('home')" id="home">Home</button>
+        <button onclick="openSection('about')" id="about">About</button>
+        <button onclick="openSection('what')" id="what">What</button>
+        <button onclick="openSection('where')" id="where">Where</button>
+        <button onclick="openSection('how')" id="how">How</button>
+        <button onclick="openSection('why')" id="why">Why</button>
+        <!-- <button onclick="openSection('fun')" id="fun">Fun</button> -->
+    </header>
+    <hr>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>My name is Frank and to be honest it was difficult choosing a hobby but if there's one thing I love its has to be <strong>food</strong>.</p>
+                <p>I love everything about food. From the aromas that tickle your nose to </p>
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <p></p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <p></p>
+            <p></p>
+        </section>
+
+        <section id="what">
+            <h2>What?</h2>
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <p></p>
+            <p></p>
+        </section>
+
+        <section id="when">
+            <h2>When?</h2>
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <p></p>
+            <p></p>
+        </section>
+
+        <section id="where">
+            <h2>Where?</h2>
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <p></p>
+            <p></p>
+        </section>
+
+        <section id="how">
+            <h2>How?</h2>
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <p></p>
+            <p></p>
+        </section>
+
+        <section id="why">
+            <h2>Why?</h2>
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <p></p>
+            <p></p>
+        </section>
+        <!-- <section id="fun">
+            <h2>Fun</h2>
+            <button onclick="">Sandbox</button>
+            <p>I was messing around with javascript and wanted to add this little section.</p>
+            <p>in theory this will allow you to add anything you'd like to the Sandbox Page</p>
+            <button onclick="getUserInputAndCallFunction()">Get User input</button>
+        </section> -->
+
+    </main>
+
+    <footer>
+        <hr>
+        <nav class="nav-bottom">
+            <ul class="page-list">
+                <li><a class="page-link" href="https://webpages.charlotte.edu/fcontice/">CLT Webpage</a></li>
+                <li><a class="page-link" href="https://github.com/fcontice">Github</a></li>
+                <li><a class="page-link" href="https://fcontice.github.io/">Github.io</a></li>
+                <li><a class="page-link" href="https://fcontice.github.io/itis3135/course.html">ITIS3135.io</a></li>
+                <li><a class="page-link" href="https://www.freecodecamp.org/fcontice">freecodecamp</a></li>
+                <li><a class="page-link" href="https://www.codecademy.com/profiles/fcontice">Codeacademy</a></li>
+                <li><a class="page-link" href="https://www.linkedin.com/in/fcontice/">LinkedIn</a></li>
+            </ul>
+        </nav>
+    	<div class="bottom-footer">
+    		<p class="p-bottom">Page built by ©<a href="../conticellocorp.co/company.html">Conticello Corp.</a> | 2023</p>
+    			<a id="validation_link_html">
+    		        <img style="border:0;width:88px;height:31px" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png " alt="Valid HTML!"></a>
+    			<a id="validation_link_css">
+    		        <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss " alt="Valid CSS!"></a>
+            <script>
+                document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+                document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+            </script>
+    	</div>	
+    </footer>
+</body>
+<script>
+// this function hides all sections except the home section
+    window.onload = function() {
+    const sections = document.querySelectorAll('section');
+    sections.forEach(section => {
+        if(section.id !== 'home'){
+            section.style.display = 'none';
+        }
+    });
+}
+// this function opens the section that is clicked on
+function openSection(sectionId){
+    const sections = document.querySelectorAll('section');
+    sections.forEach(section => {
+        if(section.id === sectionId){
+            section.style.display = 'block';
+        }else{
+            section.style.display = 'none';
+        }
+    });
+}
+// this adds an h1 to all sections except the home section
+function addH1(){
+    const sections = document.querySelectorAll('section');
+    sections.forEach(section => {
+        if(section.id !== 'home'){
+            const h1 = document.createElement('h1');
+            h1.textContent = 'Frank and his hobby';
+                section.insertBefore(h1, section.firstChild);
+        }
+    });
+}
+// this calls the addH1 function
+addH1();
+            //This will be the start of the fun section
+// function getUserInputAndCallFunction() {
+//             const userInput = prompt("Please enter some input:");
+//             if (userInput !== null) {
+//                 anotherFunction(userInput);
+//             }
+//         }
+//         function anotherFunction(input) {
+//             alert("You entered: " + input);
+//         }
+</script>
+</html>
